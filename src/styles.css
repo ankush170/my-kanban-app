@@ -1,0 +1,96 @@
+/* styles.css */
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: full;
+    max-height: full;
+    margin: 0 auto;
+  }
+  
+  .header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 20px;
+  }
+  
+  .app {
+    background-color: #f0f0f0;
+  }
+  
+  .board {
+    margin-top: 20px;
+    padding-top: 20px;
+    height: full;
+  }
+  
+  .filter {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .display-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .display-btn i {
+    margin-right: 5px;
+  }
+  
+  .options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    min-width: 250px;
+  }
+  
+  .options div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .options span {
+    margin-right: 8px;
+  }
+  
+  .options select {
+    margin-left: auto; /* Align the dropdown boxes to the right end of their rows */
+    padding: 5px; /* Add padding for a slightly bigger size */
+    border: 1px solid #ccc; /* Grayish border */
+    border-radius: 8px; /* Medium-rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+  
